@@ -3,6 +3,9 @@ import React, { Component } from 'react';
 import Location from './components/Location';
 import SearchForm from './components/SearchForm';
 import axios from 'axios';
+import { Card } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 export class App extends Component {
   constructor(props){
@@ -42,17 +45,23 @@ export class App extends Component {
   }
   render() {
     return (
-      <div>
+      <div className='main'>
         <h1>Welcome to City explorer</h1>
-        <SearchForm handleLocation={this.handleLocation} handleSubmit={this.handleSubmit}/>
+        <SearchForm className='SearchForm' handleLocation={this.handleLocation} handleSubmit={this.handleSubmit}/>
         {
           this.state.showData&&
-          <Location city_name={this.state.city_name}
+          <Location className='Location' city_name={this.state.city_name}
                     type={this.state.type}
                     lat={this.state.lat}
                     lon={this.state.lon}
+                    
           />
         }
+          <Card.Img className='cardImg' src={`https://maps.locationiq.com/v3/staticmap?key=${process.env.REACT_APP_LOCATIONIQ_API_KEY}&center=${this.state.lat},${this.state.lon}`} alt="Card image" height='500px' />
+
+        
+
+        
         
       </div>
     )
