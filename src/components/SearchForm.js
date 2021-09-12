@@ -11,7 +11,12 @@ export class SearchForm extends Component {
                             placeholder="Please enter a city name..."
                             onChange={this.props.handleLocation}
                             />
+                            <br/>
+                            <br/>
                     <input type="submit" value="Explore!"/>
+                    
+                    <br/>
+                    <br/>
                 </form>
             </div>
         )
