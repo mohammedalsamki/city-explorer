@@ -5,8 +5,7 @@ import SearchForm from './components/SearchForm';
 import axios from 'axios';
 import { Card } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Appcss from "./App.css"
-
+import './App.css';
 
 export class App extends Component {
   constructor(props){
