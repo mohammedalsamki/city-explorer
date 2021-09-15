@@ -6,7 +6,7 @@ export class SearchForm extends Component {
     render() {
         return (
             <div>
-                <form onSubmit={this.viewData}>
+                <form onSubmit={this.props.handleSubmit}>
                     <input  type="text" 
                             placeholder="Please enter a city name..."
                             onChange={this.props.handleLocation}
