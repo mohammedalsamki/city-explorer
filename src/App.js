@@ -6,6 +6,7 @@ import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Movies from './components/Movies';
 import { Form, Button, Card, Table, CardColumns } from 'react-bootstrap/';
+import './App.css';
 
 export class App extends Component {
   constructor(props) {
