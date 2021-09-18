@@ -26,13 +26,12 @@ cardImg{
 }
 input[type=text] {
   background-color: white;
-  background-image: url('searchicon.png');
   background-position: 10px 10px;
   background-repeat: no-repeat;
   padding-left: 40px;
 }
 input[type=button], input[type=submit], input[type=reset] {
-  background-color: #4CAF50;
+  background-color: salmon;
   border: none;
   color: white;
   padding: 16px 32px;
@@ -40,3 +39,8 @@ input[type=button], input[type=submit], input[type=reset] {
   margin: 4px 2px;
   cursor: pointer;
 }
+
+h1{color: salmon;}
+h2{color: salmon;}
+h3{color: salmon;}
+h4{color: salmon;}
