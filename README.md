@@ -22,12 +22,12 @@
 Time Estimates
 For each of the lab features, make an estimate of the time it will take you to complete the feature, and record your start and finish times for that feature:
 
-Name of feature: ________________________________
+Name of feature: ___________added api to react_____________________
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: ___2 hr __
 
-Start time: _____
+Start time: ___5pm__
 
-Finish time: _____
+Finish time: ___7pm__
 
 Actual time needed to complete: _____
